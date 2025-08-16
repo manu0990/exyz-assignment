@@ -1,4 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EXYZ Gaming Website
+
+This is a modern gaming website built with Next.js, featuring a retro-futuristic design with custom SVG-shaped buttons and immersive UI components.
+
+## Project Approach
+
+This website was built using a **component-first architecture** with the following approach:
+
+- **Next.js 15** with TypeScript for type-safe development
+- **Tailwind CSS** for rapid styling and responsive design
+- **Modular Components**: Hero, Collections, League, and Footer sections
+- **Custom SVG Graphics**: Hand-crafted polygonal button designs
+- **Retro Grid Background**: Custom animated background component
+
+### SVG Button Implementation
+
+The standout feature is the **PolygonButton** component, which creates a futuristic polygonal button using multiple SVG elements:
+
+- **Layered SVG Approach**: 8 different SVG files (`line-1.svg` to `line-5.svg`, `rectangle.svg`) positioned absolutely
+- **Geometric Construction**: Lines and diagonal rectangles form a complex polygonal frame
+- **Precise Positioning**: Each SVG element is positioned with pixel-perfect Tailwind classes
+- **Modular Design**: Button decorations are defined in an array for easy maintenance
+- **Hover Effects**: Transparent background with yellow accent text
+
+The button combines horizontal lines, vertical lines, and diagonal corner pieces to create a cyberpunk-style interface element that feels interactive and futuristic.
 
 ## Getting Started
 

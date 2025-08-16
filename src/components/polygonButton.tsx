@@ -56,10 +56,9 @@ const PolygonButton = () => {
 
           <div className="absolute w-[171px] h-[51px] top-0 left-0">
             {buttonDecorations.map((decoration, index) => (
-              <Image
+              <img
                 key={index}
                 className={decoration.className}
-                fill
                 alt={decoration.alt}
                 src={decoration.src}
               />

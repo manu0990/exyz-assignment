@@ -1,4 +1,5 @@
 import Collections from "@/components/collections";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import League from "@/components/league";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Collections />
       <League />
+      <Footer />
     </div>
   );
 }
